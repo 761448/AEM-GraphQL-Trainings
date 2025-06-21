@@ -12,7 +12,6 @@ import { Link } from "react-router-dom";
 import logo from "./images/wknd-icon.svg";
 import Home from "./components/Home";
 import Person from "./components/Person";
-import Team from "./components/Teams"
 import "./App.scss";
 
 function App() {

@@ -54,6 +54,7 @@ function Team({ title, shortName, description, teamMembers, teamPicture }) {
       <img
         className="team__image"
         src={process.env.REACT_APP_HOST_URI+teamPicture._path}
+        alt={teamPicture.fullName}
       />
       <h2 className="team__title">{title}</h2>
       <p className="team__description">{description.plaintext}</p>
