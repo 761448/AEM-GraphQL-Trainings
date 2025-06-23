@@ -14,6 +14,7 @@ class Loading extends Component {
     return (
       <div className="loading">
         <img src={loadingIcon} alt="Loading..." />
+        <>Local AEM Server is down to connect to Graphql endpoint. Please reach out to site admin.</>
       </div>
     );
   }
